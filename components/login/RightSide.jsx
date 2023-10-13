@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const RightSide = () => {
   return (
-    <section className="p-10 w-[70%] lg:w-[60%] max-md:w-full max-sm:w-full m-auto h-full flex flex-col items-center justify-center">
+    <section className="p-10 w-[60%] lg:w-[50%] max-md:w-full max-sm:w-full m-auto h-full flex flex-col items-center justify-center">
       <div className="w-full">
         <h1 className="text-left text-4xl text-black font-montserrat leading-normal font-bold">
           Sign In
