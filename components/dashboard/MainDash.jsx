@@ -18,7 +18,7 @@ const MainDash = () => {
     session.status === "authenticated" ? session.data.user.email : "Loading...";
 
   return (
-    <section className="p-10 h-screen">
+    <section className="p-10 h-screen mb-3">
       <NavDash profileImage={profileImage} email={profileEmail} />
       <StatusCards />
       <BarChartCard />

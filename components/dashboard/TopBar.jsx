@@ -16,7 +16,7 @@ const TopBar = () => {
               alt="Hamburger icon"
               width={30}
               height={30}
-              className="bg-white rounded-full p-2 w-12 h-10"
+              className="bg-white rounded-md p-2 w-12 h-10"
             />
           </button>
         </div>
@@ -24,7 +24,7 @@ const TopBar = () => {
           <nav className="flex flex-col text-white space-y-2 p-4">
             <button
               href="#"
-              className="hover:bg-gray-700 hover:text-white px-4 py-2 rounded-md flex items-center justify-start gap-5"
+              className="hover:bg-blue-400/50 hover:text-white px-4 py-2 rounded-md flex items-center justify-start gap-5"
             >
               <Image
                 src={"/icons/dashboard_icon.png"}
@@ -36,7 +36,7 @@ const TopBar = () => {
             </button>
             <button
               href="#"
-              className="hover:bg-gray-700 hover:text-white px-4 py-2 rounded-md flex items-center justify-start gap-5"
+              className="hover:bg-blue-400/50 hover:text-white px-4 py-2 rounded-md flex items-center justify-start gap-5"
             >
               <Image
                 src={"/icons/transaction_icon.png"}
@@ -48,7 +48,7 @@ const TopBar = () => {
             </button>
             <button
               href="#"
-              className="hover:bg-gray-700 hover:text-white px-4 py-2 rounded-md flex items-center justify-start gap-5"
+              className="hover:bg-blue-400/50 hover:text-white px-4 py-2 rounded-md flex items-center justify-start gap-5"
             >
               <Image
                 src={"/icons/schedule_icon.png"}
@@ -60,7 +60,7 @@ const TopBar = () => {
             </button>
             <button
               href="#"
-              className="hover:bg-gray-700 hover:text-white px-4 py-2 rounded-md flex items-center justify-start gap-5"
+              className="hover:bg-blue-400/50 hover:text-white px-4 py-2 rounded-md flex items-center justify-start gap-5"
             >
               <Image
                 src={"/icons/user_icon.png"}
@@ -72,7 +72,7 @@ const TopBar = () => {
             </button>
             <button
               href="#"
-              className="hover:bg-gray-700 hover:text-white px-4 py-2 rounded-md flex items-center justify-start gap-5"
+              className="hover:bg-blue-400/50 hover:text-white px-4 py-2 rounded-md flex items-center justify-start gap-5"
             >
               <Image
                 src={"/icons/setting_icon.png"}
@@ -85,13 +85,13 @@ const TopBar = () => {
             <div className="flex items-center justify-start">
               <button
                 href="#"
-                className="hover:bg-gray-700 hover:text-white px-4 py-2 rounded-md flex items-center justify-start gap-5"
+                className="hover:bg-blue-400/50 hover:text-white px-4 py-2 rounded-md flex items-center justify-start gap-5"
               >
                 Contact Us
               </button>
               <button
                 href="#"
-                className="hover:bg-gray-700 hover:text-white px-4 py-2 rounded-md flex items-center justify-start gap-5"
+                className="hover:bg-blue-400/50 hover:text-white px-4 py-2 rounded-md flex items-center justify-start gap-5"
               >
                 Help
               </button>
