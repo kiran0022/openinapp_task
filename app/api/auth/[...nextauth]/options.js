@@ -11,7 +11,7 @@ export const options = {
     // CredentialsProvider({
     //   name: "Credentials",
     //   credentials: {
-    //     username: { label: "Username", type: "text", placeholder: "Samyak" },
+    //     username: { label: "Username", type: "text", placeholder: "admin" },
     //     password: {
     //       label: "Password",
     //       type: "password",
@@ -19,7 +19,7 @@ export const options = {
     //     },
     //   },
     //   async authorize(credentials) {
-    //     const user = { id: 1, name: "Samyak", password: "nextauth" };
+    //     const user = { id: 1, name: "admin", password: "admin" };
 
     //     if (
     //       credentials?.username === user.name &&
